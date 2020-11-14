@@ -3,13 +3,13 @@
 $letters_array = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
 
 $rand_1 = rand(0,25);
-$rand_2 = rand(0,9);
+$rand_2 = rand(0,25);
 $rand_3 = rand(0,25);
-$rand_4 = rand(0,9);
+$rand_4 = rand(0,25);
 $rand_5 = rand(0,25);
-$rand_6 = rand(0,9);
+$rand_6 = rand(0,25);
 $rand_7 = rand(0,25);
-$rand_8 = rand(0,9);
+$rand_8 = rand(0,25);
 
 $rand_stamp = $letters_array[$rand_1] . $rand_2 . $letters_array[$rand_3] . $rand_4 . $letters_array[$rand_5] . $rand_6 . $letters_array[$rand_7] . $rand_8;
 

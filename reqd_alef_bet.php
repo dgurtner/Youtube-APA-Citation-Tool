@@ -1,9 +1,9 @@
 <?php
 
 print '<!-- unsorted -->';
-print '<!-- ';
-print_r($alef_bet);
-print ' -->';
+// print '<!-- ';
+// print_r($alef_bet);
+// print ' -->';
 
 sort($alef_bet,SORT_NATURAL);
 if(sort($alef_bet)) {
@@ -18,8 +18,8 @@ for($alef_x = 0; $alef_x < $alef_length; $alef_x++) {
 }
 
 print '<!-- sorted -->';
-print '<!-- ';
-print_r($alef_bet);
-print ' -->';
+// print '<!-- ';
+// print_r($alef_bet);
+// print ' -->';
 
 ?>
