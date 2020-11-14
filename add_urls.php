@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- version 201810021503 -->
+
   <title>Paste a List - Citing Youtube Videos</title>
   <link rel="stylesheet" type="text/css" href="style.css?<?php require('reqd_force_reload_assets.php') ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,12 +22,12 @@
 $sent_me_links = $_POST['youtube_link_list'];
 $links_to_array = explode("\r\n", $sent_me_links);
 
-print '<!-- 
-
- ';
-print_r($links_to_array);
-print ' 
- -->';
+// print the array
+// print '<!-- 
+//  ';
+// print_r($links_to_array);
+// print ' 
+ // -->';
 
 $current_date = date("F j, Y");
 
