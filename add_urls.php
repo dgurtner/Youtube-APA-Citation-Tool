@@ -5,8 +5,6 @@
   <title>Paste a List - Citing Youtube Videos</title>
   <link rel="stylesheet" type="text/css" href="style.css?<?php require('reqd_force_reload_assets.php') ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="numpy.css?<?php require('reqd_force_reload_assets.php') ?>" />
-  <style type="text/css" id="switch"></style>
   <style type="text/css">
     #main {
       width: auto;
